@@ -9,10 +9,10 @@ const PORT = process.env.PORT || 3001;
 
 // Create a new pool instance
 const client = new Client({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'Endowed',
-    password: '12345',
+    Username: 'sly_db_user',
+    Hostname: 'dpg-co81l74f7o1s738p1dc0-a',
+    Database: 'sly_db',
+    password: 'ee2YG592Y54ZJtXW41faUF0yxsxbB1Vm',
     port: 5432, // Default PostgreSQL port
 });
 client.connect();
